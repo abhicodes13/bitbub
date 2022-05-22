@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Poppins:wght@300;600;700&display=swap');
+
+body{
+  background-color:white;
+  height:100vh;
+  width:100%;
+  font-family:Poppins;
+  padding:0;
+  margin:0;
+}
+
+.navbar{
+  color:rgba(187, 102, 194, 1);
+  font-weight:700;
+  display:flex;
+  justify-content:space-between;
+  margin:1.5em;
+}
+ul{
+  margin:0;
+  list-style-type:none;
+  display:flex;
+  justify-content:space-between;
+}
+li{
+  margin: 0 1.2em;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+
+.content{
+  padding:2em;
+  display:grid;
+}
+
+h1{
+font-size:1.2em;
+  font-weight:700;
+  color:rgba(187, 102, 194, 1);
+  margin-bottom:0;
+}
+h3{
+  font-weight:300;
+}
+
+button{
+  font-size:18px;
+  background-color:rgba(187, 102, 194, 1);
+  font-family:'Poppins';
+  font-weight:700;
+  border:none;
+  margin:1.2em 0;
+
+  height:2.5em;
+  border-radius:15px;
+  
+}
+.free span{
+  margin-left:10px;
+}
+
+button:hover{
+   background-color:rgba(236, 22, 248, 1);
+   transform:scale(1.05);
+}
+ol li{
+font-size:19px;
+}
+
+footer{
+  font-family:'Poppins';
+  color:white;
+  margin:auto;
+  padding:5px;
+  background-color:rgba(187, 102, 194, 1);
+  text-align:center;
+}
+.feat{
+font-size: 29px;
+}
+a> header{
+    color: rgba(187, 102, 194, 1);;
+}
+
+@media only screen and (min-width:800px) {
+    a {
+        font-size: 40px;
+    }
+    li{
+        margin: 0 45px;
+    }
+
+    .content{
+        font-size:25px;
+        padding:4em;
+        text-align: left;
+      }
+      h1{
+          font-size: 1.6em;
+      }
+      button{
+          margin-top:2px;
+          height: 65px;
+          font-size:1em;
+          width:45%;
+      }
+      .free span{
+          margin-left: 18px;
+      }
+      .feat{
+          font-size: 1.3em;
+      }
+      ol li{
+          font-size: 1.1em;
+          font-weight: 400;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+      }
+      footer{
+          font-size: 1.4em;
+
+      }
+}
+
+@media only screen and (min-width:1200px){
+    a {
+        font-size: 70px;
+    }
+    li{
+        margin: 0 70px;
+    }
+
+    .content{
+        font-size:35px;
+        padding:4em;
+        text-align: left;
+      }
+      h1{
+          font-size: 1.8em;
+      }
+      .btn{
+          display: flex;
+      }
+      button{
+          margin-top: 2px 15px;
+          height: 100px;
+          font-size:1em;
+          width:35%;
+      }
+      .free span{
+          margin-left: 18px;
+      }
+      .feat{
+          font-size: 1.3em;
+      }
+      ol li{
+          font-size: 1.1em;
+          font-weight: 400;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+      }
+      footer{
+          font-size: 1.4em;
+
+      }
+
+}
