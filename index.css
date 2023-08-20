@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Flavors&family=Poppins:wght@300;600;700&display=swap');
 
 body{
-  background-color:white;
+  background-color:lightgray;
   height:100vh;
   width:100%;
   font-family:Poppins;
@@ -10,7 +10,7 @@ body{
 }
 
 .navbar{
-  color:rgba(187, 102, 194, 1);
+  color:rgba(117, 112, 194, 1);
   font-weight:700;
   display:flex;
   justify-content:space-between;
